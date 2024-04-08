@@ -487,7 +487,33 @@ h1 {
     height: 85vh;
 }
 
+/* ----------- arrow ------------- */
+.arrows {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -7em;
+}
 
+.arrow-l,
+.arrow-r {
+    display: flex;
+    justify-content: center;
+
+    width: 5em;
+    height: 5em;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.arrow-l img,
+.arrow-r img {
+    width: 1.5em;
+}
+
+.arrow-l,
+.arrow-r {
+    margin-right: 1.5em;
+}
 
 
 /* ----------- conditions-head ------------- */

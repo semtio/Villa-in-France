@@ -595,7 +595,8 @@ h1 {
 /* ----------- attractions ------------- */
 .attractions {
     display: flex;
-    height: 60vh;
+    /* height: 60vh; */
+    height: 82vh;
 }
 
 .attractions-1,
@@ -641,12 +642,43 @@ h1 {
 }
 
 .attractions-description {
-    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* height: 11vh; */
+    height: 23vh;
     background-color: #fff;
 }
 
+.attractions-description p,
+.attractions-description span {
+    margin: 0 1em;
+}
+
+
+
+.attractions-description p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #1a302b;
+
+    /* margin-bottom: 5px; */
+}
+
+.attractions-description span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #32798F;
+}
+
 .description-min {
-    height: 28vh;
+    /* height: 28vh; */
+    height: 67vh;
 }
 
 .margin-05em {

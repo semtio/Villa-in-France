@@ -12,6 +12,7 @@ body {
 
 section {
     margin: 0 225px;
+    /* margin: 0 20vh; */
 }
 
 h2 {
@@ -20,7 +21,10 @@ h2 {
     color: #1A2D30;
 }
 
-
+.villa-feedback-img {
+    margin-left: 45%;
+    margin-bottom: -3vw;
+}
 
 .section-one_villa-feedback-form h2 {
     font-family: "Playfair Display SC", serif;
@@ -100,6 +104,10 @@ nav button {
     margin-top: 20px;
 }
 
+.head-1 p {
+    color: #2C6678;
+}
+
 h1 {
     font-family: "Playfair Display SC", serif;
 
@@ -124,6 +132,11 @@ h1 {
 
 .spacer {
     margin-top: 150px;
+}
+
+._villa-feedback-form p,
+._villa-feedback-form span {
+    font-family: "Inter", sans-serif;
 }
 
 ._villa-feedback-form p {
@@ -154,7 +167,7 @@ h1 {
     /* height: 747px; */
 
     width: 90%;
-    height: 80vh;
+    height: 95vh;
 
     background-color: #ffffff;
     border-radius: 40px;
@@ -172,7 +185,7 @@ h1 {
 }
 
 .prices-container span {
-    font-size: 1.3em;
+    font-size: 1.2em;
 
 }
 
@@ -189,7 +202,7 @@ h1 {
 
 .span-b {
     background-color: #fff;
-    padding: 5px 20px 5px 20px;
+    padding: .5em 1em .5em 1em;
     border-radius: 100px;
 
 
@@ -297,6 +310,11 @@ h1 {
     gap: 10px;
     /* justify-items: center; */
     /* align-items: center; */
+}
+
+.facilities-2 {
+    background: url("img/3.png") 0 0 / contain no-repeat;
+    /* background-size: ; */
 }
 
 .facilities-1 {

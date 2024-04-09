@@ -1,5 +1,6 @@
 :root {
     --section-indent: 0 225px;
+    --footer-circle-w-h: 567px;
 }
 
 body {
@@ -435,7 +436,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0;
-    background-position-y: 0;
+    position: relative;
+
 }
 
 .holiday-1,
@@ -613,7 +615,7 @@ h1 {
     background-image: url("img/5.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: right top;
 
     padding: var(--section-indent);
 }
@@ -631,16 +633,15 @@ h1 {
     width: 50%;
 }
 
-.attractions-img {
+/* .attractions-img {
     background: url("img/Rectangle\ 52.png") 0 0 / cover no-repeat;
     width: 100%;
     height: 100%;
-}
-
+} */
 
 .attractions-img {
-    background: url("img/Rectangle\ 52.png") 0 0 / cover no-repeat;
-    /* width: 100%; */
+
+    width: 100%;
     height: 100%;
 }
 
@@ -731,17 +732,27 @@ footer {
     display: flex;
     justify-content: center;
 
-    margin: 114px 0;
+    padding: 114px 0;
+
+    background-image: url('img/3.png'), url('img/turtle 3 3.png');
+    background-position: -570px 21vh, right 10vw;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .footer-circle {
-    background-color: #fff;
     display: flex;
+    justify-content: center;
+
+    background-color: #fff;
+
     align-items: center;
     flex-direction: column;
+    width: var(--footer-circle-w-h);
+    height: var(--footer-circle-w-h);
 
-    width: 567px;
-    height: 567px;
+    /* width: 567px; */
+    /* height: 567px; */
 
     border-radius: 100%;
 }
@@ -754,10 +765,6 @@ footer span {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-}
-
-.footer-img {
-    margin-top: 114px;
 }
 
 .footer-adress {

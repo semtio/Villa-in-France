@@ -1,6 +1,15 @@
 :root {
     --section-indent: 0 225px;
     --footer-circle-w-h: 567px;
+
+    --dark: #1a2d30;
+    --text-2: #71838c;
+    --blue: #32798f;
+    --gold: #c39674;
+
+    --font-family: "Inter", sans-serif;
+    --second-family: "Playfair Display SC", sans-serif;
+    --third-family: "Suisse Intl", sans-serif;
 }
 
 body {
@@ -33,7 +42,7 @@ h2 {
 
 .section-one_villa-feedback-form h2 {
     font-family: "Playfair Display SC", serif;
-    font-size: 7.2vh;
+    font-size: 6.6vh;
     font-weight: 400;
     line-height: 60px;
 }
@@ -113,6 +122,10 @@ nav button {
     color: #2C6678;
 }
 
+.head-1 img {
+    width: 40vh;
+}
+
 .head-img {
     max-inline-size: 130%;
 }
@@ -137,6 +150,7 @@ h1 {
 
 ._villa-feedback-form {
     display: flex;
+    align-items: flex-end
 }
 
 .spacer {
@@ -171,18 +185,152 @@ h1 {
     margin-top: 23px;
 }
 
-.fake-form {
+.form-feedback {
     /* width: 654px; */
     /* height: 747px; */
 
-    width: 90%;
-    height: 95vh;
+    width: 80%;
+    min-height: 75vh;
 
     background-color: #ffffff;
     border-radius: 40px;
 
     padding: 30px;
 }
+
+.form-feedback span {
+    font-family: var(--font-family);
+    color: var(--text-2);
+}
+
+/* ----------------- форма обратной связи ----------------- */
+.form-feedback h3 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    line-height: 129%;
+    color: var(--dark);
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 3.5vh;
+
+    margin-bottom: 1em;
+}
+
+.date-arrival-departure {
+    margin-bottom: 2em;
+}
+
+.form-feedback span {
+    margin-top: 0.5em;
+}
+
+.form-feedback input {
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+    padding: 1em 1em;
+    height: 4em;
+    width: 15vh;
+}
+
+.date-arrival-departure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrival,
+.departure,
+.guests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrival,
+.departure,
+.guests:not(:last-child) {
+    margin-right: 1em;
+}
+
+.guests input {
+    width: 11vh !important;
+}
+
+.name-telephone-email {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1em;
+}
+
+.name-telephone-email input {
+    width: 100%;
+    margin-bottom: 1em;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--dark);
+}
+
+input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.button-send {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 2em;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+
+    height: 3.5em;
+    width: 35vh;
+
+    background: var(--blue);
+
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+}
+
+.agreement {
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+}
+
+.agreement span {
+    margin-top: 0;
+    font-size: .6em;
+    font-family: var(--font-family);
+    color: var(--text-2);
+}
+
+.agreement input {
+    margin-right: 1em;
+
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    width: 2em;
+    height: 2em;
+}
+
+/* -----------------    ----------------- */
+
 
 .prices {
     display: flex;

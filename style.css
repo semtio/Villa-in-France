@@ -255,6 +255,10 @@ h1 {
     margin-right: 1em;
 }
 
+input {
+    text-align: center;
+}
+
 .guests input {
     width: 11vh !important;
 }

@@ -235,7 +235,10 @@ h1 {
     width: 8em;
 }
 
-
+#guests {
+    text-align: center;
+    background: url('img/arrow-inp.svg') 55% center / 7% no-repeat
+}
 
 .arrival,
 .departure,
@@ -915,17 +918,96 @@ footer span {
     }
 }
 
+/* если меньше */
 @media (max-width: 1301px) {
     :root {
         --section-indent: 0 25px;
     }
 
-    .desktop {
-        display: none;
+    nav {
+        padding: 0 25px;
     }
 
-    .mobile-nav {
-        border: solid red;
+    .head {
+        margin-top: 60px;
+    }
+
+    .head-1 img {
+        width: 15em;
+    }
+
+    .head-1,
+    .mobile-nav-2 {
+        position: relative;
+        z-index: 1;
+    }
+
+    .head-img {
+        position: absolute;
+        top: 220px;
+        right: -290px;
+        z-index: 0;
+    }
+
+    h1 {
+        font-family: "Playfair Display SC", serif;
+        font-size: 2.7em;
+        line-height: inherit;
+    }
+
+    .section-one_villa-feedback-form,
+    .section-two_villa-feedback-form {
+        width: 100%;
+    }
+
+    ._villa-feedback-form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .date-arrival-departure {
+        /* margin-bottom: 2em; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .arrival,
+    .departure,
+    .guests {
+        margin-right: 0;
+    }
+
+    .form-feedback {
+        width: 100%;
+    }
+
+    .form-feedback input {
+        width: 100%;
+    }
+
+    .form-feedback h3 {
+        text-align: center;
+    }
+
+    .form-feedback span {
+        margin: 0.5em 0.5em;
+    }
+
+    .guests input {
+        width: 100% !important;
+    }
+
+    .agreement {
+        padding: 0;
+    }
+
+    .agreement input {
+        width: 1em;
+        height: 1em;
+    }
+
+    .desktop {
+        display: none;
     }
 }
 
@@ -934,11 +1016,12 @@ footer span {
 }
 
 .mobile-nav-2 .adress-in-head {
+    width: 60%;
     margin-left: 0px;
 }
 
 .mobile-nav-2 {
-    padding: 0 75px;
+    padding: 0 25px;
 }
 
 .mobile-nav-2 .menu {

@@ -915,7 +915,7 @@ footer span {
     }
 }
 
-начало разработки поб мобильную версию @media (max-width: 1301px) {
+@media (max-width: 1301px) {
     :root {
         --section-indent: 0 25px;
     }

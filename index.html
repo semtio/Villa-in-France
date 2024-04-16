@@ -15,6 +15,10 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="uikit/css/uikit.min.css" />
+    <script src="uikit/js/uikit.min.js"></script>
+    <script src="uikit/js/uikit-icons.min.js"></script>
 </head>
 
 <body>
@@ -104,13 +108,19 @@
 
                 <div class="prices">
                     <div class="price-one prices-container">
-                        <span class="span-a">в сутки</span>
-                        <span class="span-b">Низкий сезон</span>
+                        <div class="spans-price">
+                            <span class="span-a">в сутки</span>
+                            <span class="span-b">Низкий сезон</span>
+                        </div>
+
                         <div class="price-in-euros">930€</div>
                     </div>
                     <div class="price-two prices-container">
-                        <span class="span-a">в сутки</span>
-                        <span class="span-b">Средний сезон</span>
+                        <div class="spans-price">
+                            <span class="span-a">в сутки</span>
+                            <span class="span-b">Средний сезон</span>
+                        </div>
+
                         <div class="price-in-euros">1000€</div>
                     </div>
                 </div>
@@ -137,7 +147,7 @@
                     </div>
 
                     <div class="agreement">
-                        <input type="checkbox">
+                        <input id="agreement" type="checkbox">
                         <span>
                             Я согласен с правилами обработки персональных данных и политикой конфиденциальности
                         </span>
@@ -147,6 +157,7 @@
         </section>
 
         <div class="video-section spacer">
+            <img src="img/1.png" alt="">
             <iframe src="https://www.youtube.com/embed/5MXTcO1veRQ" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>

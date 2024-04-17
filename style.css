@@ -927,6 +927,7 @@ footer span {
 
 
 /* кросплатформенность */
+/* если больше */
 @media (min-width: 1301px) {
     .mobile-nav {
         display: none;
@@ -937,6 +938,15 @@ footer span {
 @media (max-width: 1301px) {
     :root {
         --section-indent: 0 25px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .mobile-v {
+        display: none;
     }
 
     nav {
@@ -1067,6 +1077,8 @@ footer span {
     .interior-container h2 {
         font-size: 2.5em;
     }
+
+
 
     .desktop {
         display: none;

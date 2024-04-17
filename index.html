@@ -13,12 +13,14 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
 
-    <link rel="stylesheet" href="uikit/css/uikit.min.css" />
-    <script src="uikit/js/uikit.min.js"></script>
-    <script src="uikit/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app/flickity-slider/style.css">
+
+    <!-- CSS for slider -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 </head>
 
 <body>
@@ -164,7 +166,7 @@
             </iframe>
         </div>
 
-        <section class="section interior-container spacer">
+        <section class="mobile-v section interior-container spacer">
             <h2>ИНТЕРЬЕР</h2>
 
             <div class="interior-container_blocks">
@@ -172,7 +174,23 @@
                 <div class="interior interior_2">КУХНЯ</div>
                 <div class="interior interior_3">ВАННА</div>
             </div>
+
         </section>
+
+        <!-- main-carousel -->
+        <div class="slider">
+            <section class="section interior-container spacer">
+                <h2>ИНТЕРЬЕР</h2>
+            </section>
+
+            <div class="width-slider main-carousel">
+                <div class="blocks-width-in-slider interior interior_1">СПАЛЬНЯ</div>
+                <div class="blocks-width-in-slider interior interior_2">КУХНЯ</div>
+                <div class="blocks-width-in-slider interior interior_3">ВАННА</div>
+            </div>
+
+        </div>
+
 
         <section class="section spacer">
             <div class="facilities-main-block">
@@ -430,6 +448,9 @@
     </footer>
 
     <script src="app.js"></script>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="app/flickity-slider/flickity-slider.js"></script>
 </body>
 
 </html>

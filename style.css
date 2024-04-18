@@ -945,6 +945,13 @@ footer span {
         overflow-x: hidden !important;
     }
 
+    body {
+        background-image: url('img/turtle 1.png');
+        background-size: contain;
+        background-position: 190px 170px;
+        background-repeat: no-repeat;
+    }
+
     .mobile-v {
         display: none;
     }
@@ -1078,7 +1085,13 @@ footer span {
         font-size: 2.5em;
     }
 
+    .slider .section {
+        margin-top: 60px;
+    }
 
+    .facilities-1 h2 {
+        display: flex;
+    }
 
     .desktop {
         display: none;

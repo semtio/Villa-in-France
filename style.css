@@ -1093,6 +1093,38 @@ footer span {
         display: flex;
     }
 
+    .facilities-1 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .facilities-1 h2 {
+        font-size: 2em;
+    }
+
+    .facilities-2 {
+        width: 100%;
+    }
+
+    .facilities-main-block {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .facilities-2 {
+        position: relative;
+    }
+
+    .circle-1,
+    .circle-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .facilities-services {
+        margin: 30px 0% 0 0;
+    }
+
     .desktop {
         display: none;
     }

@@ -964,7 +964,7 @@ footer span {
     }
 
     .mobile-v {
-        display: none;
+        display: none !important;
     }
 
     nav {

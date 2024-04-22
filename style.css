@@ -73,7 +73,7 @@ nav {
 }
 
 nav button:not(:last-child) {
-    margin: 12.22px;
+    margin: 12.22px 12.22px 12.22px 0;
     font-size: 1em;
     font-weight: 400;
     background-color: #fff;
@@ -372,8 +372,16 @@ input {
     background-color: #fff;
     padding: .5em 1em .5em 1em;
     border-radius: 100px;
+}
 
+.interior-facilities {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.interior-facilities img {
+    width: 60%;
 }
 
 .price-in-euros {
@@ -1212,8 +1220,16 @@ footer span {
         background-size: auto auto, 70% auto;
     }
 
+    .map {
+        margin: 150px 0;
+    }
+
     .footer-circle {
         margin-top: 100px;
+    }
+
+    .flickity-viewport {
+        margin: 0 0 0 20px;
     }
 
     .desktop {

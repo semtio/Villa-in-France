@@ -440,32 +440,23 @@ input {
 }
 
 .interior_1 {
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
-        url('./img/turtle 1.png');
+    background: url('./img/bedroom.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .interior_2 {
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
-        url('./img/turtle 1.png');
+    background: url('./img/kitchen.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .interior_3 {
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
-        url('./img/turtle 1.png');
+    background: url('./img/bath.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -1230,6 +1221,21 @@ footer span {
 
     .flickity-viewport {
         margin: 0 0 0 20px;
+    }
+
+    .slider {
+        background-image: url('img/3.png');
+        background-repeat: no-repeat;
+        background-position: 100px center;
+        background-size: cover;
+    }
+
+    .main-attractions {
+        padding: 0;
+    }
+
+    .main-attractions h2 {
+        padding: 0 25px;
     }
 
     .desktop {

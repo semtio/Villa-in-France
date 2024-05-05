@@ -4,6 +4,12 @@
 }
 
 .blocks-width-in-slider {
-    width: 70%;
-    margin: 20px;
+    /* width: 70%; */
+    width: 80%;
+    height: 12em;
+    margin: .2em;
+}
+
+.flickity-viewport {
+    margin: 0 0 0 20px;
 }

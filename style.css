@@ -185,11 +185,6 @@ h1 {
     color: #71838C;
 }
 
-.section-one_villa-feedback-form,
-.section-two_villa-feedback-form {
-    /* width: 50%; */
-}
-
 .section-two_villa-feedback-form {
     display: flex;
     justify-content: center;
@@ -261,8 +256,6 @@ h1 {
     height: 3.4em;
 
 }
-
-.form-feedback {}
 
 #guests {
     text-align: center;
@@ -528,6 +521,12 @@ body {
     width: 50%;
 }
 
+.facilities-1 h2 {
+    position: relative;
+    z-index: 10;
+    white-space: nowrap;
+}
+
 .facilities-turtle-img {
     margin: 0 0 -85px 261px;
 }
@@ -693,7 +692,7 @@ body {
 .holiday-2 p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: .9em;
     line-height: 150%;
     padding: 0 12em 0 0;
 }
@@ -729,7 +728,7 @@ body {
 
 .arrow-l img,
 .arrow-r img {
-    width: 1.5em;
+    width: .7em;
 }
 
 .arrow-l {
@@ -760,6 +759,10 @@ body {
 .conditions {
     display: flex;
     /* border: solid black; */
+}
+
+.conditions p {
+    margin-bottom: 10px;
 }
 
 .conditions-1,
@@ -831,16 +834,16 @@ body {
     background-image: url(img/5.png);
     background-repeat: no-repeat;
     background-size: 40%;
-    background-position: right -46px;
+    background-position: right 0;
     padding: 80px 225px;
 }
 
 .main-attractions h2 {
     font-family: var(--second-family);
     font-weight: 400;
-    font-size: 30px;
-    line-height: 100%;
-    color: var(--dark);
+    font-size: 2.7em;
+    line-height: 117%;
+    color: #1a302b;
 }
 
 .attractions {
@@ -870,6 +873,8 @@ body {
     flex-direction: column;
 
     width: 50%;
+
+    margin: 0 1em 0 0;
 }
 
 .attractions-1 {
@@ -879,7 +884,7 @@ body {
 
     width: 50%;
 
-    margin: 0 1em 0 0;
+    margin: 0 2em 0 0;
 }
 
 .attractions-description {
@@ -921,7 +926,8 @@ body {
 }
 
 .margin-05em {
-    margin: .5em;
+    /* margin: .5em; */
+    margin: 0 0 2em 1em;
 }
 
 /* ----------- mapp ------------- */
@@ -945,6 +951,7 @@ footer {
 
     background-image: url('img/3.png'), url('img/turtle 3 3.png');
     background-position: -570px 162px, right 10vw;
+    background-position: -570px 162px, 1090px 150px;
     background-repeat: no-repeat;
     width: 100%;
 }

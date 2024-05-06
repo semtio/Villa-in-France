@@ -1,3 +1,4 @@
+/* если больше */
 @media (min-width: 1301px) {
     .mobile-nav {
         display: none;
@@ -6,6 +7,7 @@
     .desktop-v {
         display: none;
     }
+
 }
 
 /* если меньше */
@@ -13,6 +15,10 @@
     :root {
         --section-indent: 0 25px;
         --circles-w-h: 162px;
+    }
+
+    .spacer {
+        margin-top: 100px;
     }
 
     html,
@@ -232,9 +238,10 @@
     }
 
     .holiday {
+        background-size: 100%;
         padding: var(--section-indent);
         flex-direction: column;
-        background-position: 0px 320px;
+        background-position: 0px 210px;
     }
 
     .holiday-1,
@@ -277,6 +284,7 @@
 
     .conditions-head-2 img {
         width: 50%;
+        margin-top: 40px;
     }
 
     .conditions-head {
@@ -289,6 +297,10 @@
 
     .conditions .description {
         margin: 10px 0 10px 0;
+    }
+
+    .conditions .description p {
+        font-size: 16px;
     }
 
     .conditions-1,
@@ -311,7 +323,7 @@
         background-repeat: no-repeat;
 
         width: 100%;
-        height: 59vh;
+        height: 93vh;
     }
 
     :root {
@@ -338,7 +350,7 @@
     }
 
     .map {
-        margin: 150px 0;
+        margin: 0 0;
     }
 
     .footer-circle {
@@ -348,7 +360,7 @@
     .slider {
         background-image: url(img/2.png);
         background-repeat: no-repeat;
-        background-position: -90px 70px;
+        background-position: 0 70px;
         background-size: cover;
         padding: 10px 0 110px 0;
     }

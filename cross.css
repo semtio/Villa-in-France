@@ -12,6 +12,7 @@
 @media (max-width: 1301px) {
     :root {
         --section-indent: 0 25px;
+        --circles-w-h: 162px;
     }
 
     html,
@@ -167,8 +168,17 @@
         background-image: none;
     }
 
+    .blocks-width-in-slider {
+        height: 10em;
+    }
+
+    .interior {
+        max-width: 300px;
+    }
+
     .interior-container h2 {
         font-size: 2.5em;
+        margin-bottom: 50px;
     }
 
     .slider .section {
@@ -189,7 +199,13 @@
     }
 
     .facilities-2 {
+        margin-top: 50px;
+
         width: 100%;
+
+        position: relative;
+
+        gap: 15px;
     }
 
     .facilities-main-block {
@@ -197,9 +213,7 @@
         flex-direction: column-reverse;
     }
 
-    .facilities-2 {
-        position: relative;
-    }
+
 
     .facilities h2 {
         font-size: 1.8em;
@@ -207,8 +221,10 @@
 
     .circle-1,
     .circle-2 {
-        width: 150px;
-        height: 150px;
+        width: var(--circles-w-h);
+        height: var(--circles-w-h);
+
+        margin: 0;
     }
 
     .facilities-services {
@@ -242,9 +258,21 @@
         margin: -2.9em 0em;
     }
 
+    .holiday-img img {
+        width: 100%;
+    }
+
+    .holiday-2 p {
+        padding: 0;
+    }
+
     .conditions-head-1,
     .conditions-head-2 {
         width: 100%;
+    }
+
+    .conditions-head-1 h2 {
+        font-size: 2em;
     }
 
     .conditions-head-2 img {
@@ -326,7 +354,13 @@
     }
 
     .main-attractions {
-        padding: 0;
+        padding: 0 !important;
+
+        background-image: url(img/5.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right top;
+        padding: var(--section-indent);
     }
 
     .main-attractions h2 {

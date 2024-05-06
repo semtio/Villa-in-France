@@ -111,7 +111,7 @@ nav button {
 
 .whatsapp img {
     width: 1.4em;
-    margin-right: 3px;
+    margin-right: 10px;
 }
 
 .head {
@@ -139,6 +139,9 @@ nav button {
 h1 {
     white-space: nowrap;
 
+    position: relative;
+    z-index: 10;
+
     color: #1a2d30;
     font-family: "Playfair Display SC", serif;
 
@@ -160,6 +163,8 @@ h1 {
 ._villa-feedback-form {
     display: flex;
     justify-content: space-between;
+
+    margin-top: 280px !important;
 }
 
 .spacer {
@@ -456,6 +461,13 @@ input {
     background-size: contain;
 }
 
+body {
+    background-image: url(img/turtle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: right 40px;
+}
+
 .interior-container h2 {
     font-weight: 400;
     font-size: 60px;
@@ -643,21 +655,12 @@ input {
 
 /* ----------- holiday ------------- */
 .holiday {
-    /* padding: var(--section-indent);
-    display: flex;
-
-    background-image: url('img/4.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0;
-    position: relative; */
-
-    padding: 0px 0px 122px 225px;
+    padding: 0px 0px 272px 225px;
     display: flex;
     background-image: url(img/4.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0px 60px;
+    background-size: 55%;
+    background-position: 0px 52px;
     position: relative;
 }
 
@@ -692,7 +695,7 @@ input {
     font-weight: 400;
     font-size: 1em;
     line-height: 150%;
-    padding: 0 4em 0 0;
+    padding: 0 12em 0 0;
 }
 
 .holiday-2 h2 {
@@ -701,14 +704,16 @@ input {
 }
 
 .holiday-img img {
-    height: 90vh;
+    /* height: 90vh; */
+    width: 74%;
 }
 
 /* ----------- arrow ------------- */
 .arrows {
     display: flex;
     justify-content: flex-end;
-    margin: -7em 3.4em;
+    /* margin: -7em 4.6em; */
+    margin: -17% 12%;
 }
 
 .arrow-l,
@@ -822,14 +827,12 @@ input {
     display: flex;
 }
 
-/* ----------- main-attractions ------------- */
 .main-attractions {
-    background-image: url("img/5.png");
+    background-image: url(img/5.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right top;
-
-    padding: var(--section-indent);
+    background-size: 40%;
+    background-position: right -46px;
+    padding: 80px 225px;
 }
 
 .main-attractions h2 {
@@ -840,7 +843,6 @@ input {
     color: var(--dark);
 }
 
-/* ----------- attractions ------------- */
 .attractions {
     display: flex;
     height: 82vh;

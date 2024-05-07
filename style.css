@@ -839,6 +839,7 @@ body {
 }
 
 .main-attractions h2 {
+    margin-bottom: 50px;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 2.7em;
@@ -868,12 +869,13 @@ body {
 
 .attractions-min-2,
 .attractions-min-3 {
-    /* border: solid blue; */
     display: flex;
     flex-direction: column;
 
     width: 50%;
+}
 
+.attractions-min-2 {
     margin: 0 1em 0 0;
 }
 
@@ -942,6 +944,21 @@ body {
 }
 
 /* ----------- footer ------------- */
+footer {
+    position: relative;
+}
+
+.privacy-policy {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: var(--text-2);
+
+    position: absolute;
+    right: 74px;
+    bottom: 30px;
+}
 
 footer {
     display: flex;

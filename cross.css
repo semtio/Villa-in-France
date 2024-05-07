@@ -330,6 +330,11 @@
         --footer-circle-w-h: 364px;
     }
 
+    .privacy-policy {
+        right: 24px;
+        bottom: 33.45px;
+    }
+
     .footer-img {
         width: 142px;
     }
@@ -345,8 +350,9 @@
     footer {
         margin-top: 10vh;
         background-image: url('img/3.png'), url('img/turtle 3 3.png');
-        background-position: -570px 270px, right -5vw;
-        background-size: auto auto, 70% auto;
+        background-position: -570px 270px, 48% -2vw;
+        /* background-size: auto auto, 70% auto; */
+        background-size: 180% 100%, 50% auto;
     }
 
     .map {
